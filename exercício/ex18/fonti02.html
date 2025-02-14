@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externa</title>
+    <style>
+        @font-face {
+            font-family: 'blak';
+            src: url('CloisterBlack.ttf') format('truetype') ;
+            font-weight: normal;
+            font-style: normal;
+            /*
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aap (apple advanced typography)
+            - svg
+            */
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'blak', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>titulo 1</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur inventore, temporibus fugit voluptatum culpa ducimus nobis minus quidem suscipit repudiandae nihil dolorem in, repellat facere commodi quod? Voluptas, autem.</p>
+</body>
+</html>

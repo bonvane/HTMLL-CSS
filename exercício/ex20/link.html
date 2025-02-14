@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        /* CELETORES PERSONALIZADO!!!!!!!!
+        
+        # = id
+        . = class
+        : = pseud-class
+        :: = pesud-element
+        > = clildren
+
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: black;
+            text-decoration: none;/*tira sublinhação*/
+            font-weight: bold;/*deixa em negrito*/
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgb(238, 94, 94);
+        }
+
+        .especial::before {
+            content: '✗';
+        }
+
+        .especial::after {
+            content: '✔';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" >repositori gitirub</a></li>
+
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">canal do youtube</a></li>
+
+        <li><a href="https://www.youtube.com/" target="_blank">site do curso em video</a></li>
+
+    </ul>
+</body>
+</html>

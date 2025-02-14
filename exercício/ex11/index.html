@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tenti abri essas imagems um varios dispositivos diferentes ou simplesmente aumente a tamanho do sseu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grnade">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>vamos apreender a reproduzir audios em HTML</p>
+    <p><audio src="midia/musicayou.mp3" controls autoplay></audio></p> <!--modo simples-->
+    <p>
+        <audio preload="metadata" controls loop>
+            <source src="midia/musicayou.mp3" type="audio/mpeg">
+            <source src="midia/musicayo2.ogg" type="audio/ogg">
+            <source src="midia/musicayo2.wav" type="audio/wav">
+            <p>infelismente seu navegadorn consegui caregar o audio. <a href="midia/musicayou.mp3" target="_blank" rel="external">clique aq pra carregar o audio</a></p>
+        </audio>
+    </p>
+    
+</body>
+</html>
