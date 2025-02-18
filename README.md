@@ -4,4 +4,4 @@
  Estou apreendendo html e css, e agora estou gerenciando os meus repositorios
 
 
-<a href="https://bonvane.github.io/HTMLL-CSS/ecercício/ex01/index.html">
+<a href="https://bonvane.github.io/HTMLL-CSS/ecercício/ex01/index.html">executar exercicio o1</a>
